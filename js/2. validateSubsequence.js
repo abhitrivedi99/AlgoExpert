@@ -33,5 +33,19 @@ const validateSubsequence2 = (nums, sub) => {
 	return subIndex === sub.length
 }
 
+// Time Complexity = O(N)
+// Space Complexity = O(1)
+
+const validateSubsequence3 = (nums, subNums) => {
+	let subIndex = 0
+
+	for (value of nums) {
+		if (subIndex === subNums.length) break
+		if (value === subNums[subIndex]) subIndex++
+	}
+	return subIndex === subNums.length
+}
+
 validateSubsequence(nums, subNums)
 validateSubsequence2(nums, subNums)
+validateSubsequence3(nums, subNums)

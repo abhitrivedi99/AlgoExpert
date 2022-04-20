@@ -15,5 +15,21 @@ def validateSubsequence(nums, sub):
 
     return subIndex == len(sub)
 
+# Time complexity = O(N)
+# Space complexity = O(1)
+
+
+def validateSubsequence2(nums, sub):
+    subIndex = 0
+
+    for num in nums:
+        if subIndex == len(sub):
+            break
+        if sub[subIndex] == num:
+            subIndex += 1
+
+    return subIndex == len(sub)
+
 
 validateSubsequence(nums, subNums)
+validateSubsequence2(nums, subNums)
