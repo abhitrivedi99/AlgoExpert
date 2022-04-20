@@ -6,7 +6,8 @@ subNums = [6, 1, 0, 11]
 
 
 def validateSubsequence(nums, sub):
-    numsIndex, subIndex = 0
+    numsIndex = 0
+    subIndex = 0
 
     while numsIndex < len(nums) and subIndex < len(sub):
         if nums[numsIndex] == sub[subIndex]:
