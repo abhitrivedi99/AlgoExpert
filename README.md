@@ -9,3 +9,5 @@ Same solutions are available at leetcode with explanations.
 2. Validate subsequence in array [Javascript](https://github.com/abhitrivedi99/AlgoExpert/blob/main/js/2.%20validateSubsequence.js) | [Python](https://github.com/abhitrivedi99/AlgoExpert/blob/main/python/2.%20validateSubsequence.py)
 
 3. Sort squared array [Javascript](https://github.com/abhitrivedi99/AlgoExpert/blob/main/js/3.%20sortSquared.js) | [Python](https://github.com/abhitrivedi99/AlgoExpert/blob/main/python/3.%20sortSquared.py) | [LeetCode](https://leetcode.com/problems/squares-of-a-sorted-array/)
+
+4. Winner Team in array [Javascript](https://github.com/abhitrivedi99/AlgoExpert/blob/main/js/4.%20winnerTeam.js) | [Python](https://github.com/abhitrivedi99/AlgoExpert/blob/main/python/4.%20winnerTeam.py)

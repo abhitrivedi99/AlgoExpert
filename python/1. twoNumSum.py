@@ -7,7 +7,7 @@ target = 11
 
 def twoNumberSum(nums, target):
     dict = {}
-    for index, num in enumerate(nums):
+    for num in enumerate(nums):
         sum = target - num
         if sum in dict:
             return [sum, nums[num]]
