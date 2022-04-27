@@ -1,5 +1,8 @@
 const nums = [-7, -4, -1, 1, 3, 4, 8, 11];
 
+// Time Complexity = O(N)
+// Space Complexity = O(N)
+
 const sortSquaredArray = (nums) => {
 	let left = 0;
 	let right = nums.length - 1;
